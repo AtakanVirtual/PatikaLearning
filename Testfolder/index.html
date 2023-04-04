@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning</title>
+    <!-- Arka plana resim ekleme ve resmi konumlandırma örneği -->
+    <style>
+        body {
+          background-image: url(/img/background.jpg);
+          background-size: cover;
+        }
+        </style>
+    
+</head>
+<body>
+    <!-- Sayfadaki başlıklar ve latında yazanlar, sayfa sonuna ve sayfa başına eklenen id ve butonlar div içine alındı. -->
+    <div>
+        <!-- Sayfanın başına id vererek en alta bu id ye git butonu örneği -->
+        <p id="Sayfabasi"></p>
+        <h1>Atakan Tekebas</h1>
+        <a href="#Sayfasonu">
+            <button>Sayfa Sonuna Git</button>
+        </a>    
+    </div>    
+    <div>
+        <h2>Hakkımda</h2>
+            <!-- Buton ve yeni sekmede açılan link örneği bulunan paragraf -->
+            <p>Merhaba ben Atakan, İstanbul'da yaşıyorum. Biraz merak ve biraz da arkadaş teşviki sonucu
+                yazılım öğrenmeye karar verdim. Görsel sonuç alabilmeyi ve kendimce hoşuma giden, sanat değeri
+                taşıyan ürünler ortaya koymayı seviğimden front-end dersleri almaya başladım. Burada gördüğünüz,
+                <a href="http://app.patika.dev/paths" target="_blank"><button>Patika</button>
+                </a> 
+                üzerinden aldığım
+                eğitim içerisinde benden istenen <b>ikinci ödev konulu web sitesi</b>.
+            </p>
+    </div>        
+    <div>
+          <!-- h3>ul>li*8 şekline emmet kullanarak yapıldı. -->
+        <h3>İlgi alanlarım</h3>
+            <!-- Sırasız liste örneği -->
+            <ul>
+                <li>Motosiklet sürmek</li>
+                <li>Araştırma yapmak</li>
+                <li>Film izlemek</li>
+                <li>Yabancı dizi izlemek</li>
+                <li>Yeni bilgiler edinmek ve yeni şeyler öğrenmek</li>
+                <li>Bilgisayar (özellikle fps türü) oyunları oynamak</li>
+                <li>Arkadaşlarımla vakit geçirmek ve sohbet etmek</li>
+                <li>Kahve içmek, asla hayır demem :)</li>
+            </ul>
+    </div>        
+    <div>
+        <h4>Yakın zamanda edindiğim bir hobi</h4>
+            <!-- Yeni sekmede açılan link, görsel ile hazırlanmış buton, inline element olan strong ve yeni paragraf hr örneği içeren paragraf -->
+            <p>Biraz heves, biraz da boş vaktimi doldurmak için merak saldığım bir diğer konu ise Youtube ve
+                Twitch üzerinden yayın yapıp görsel içerik üretmek oldu. 
+                <hr>
+                İddialı olduğum bir konu değil ve hobi olarak görüyorum ama yine de tanımadığın insanlarla farklı
+                anlar paylaşıyor olmak keyifli.
+                <hr>
+                <!-- Film görselleri ve imdb linkleri yerine youtube ve twitch görselleri eklendi ve bu
+                görsellere link verilerek imdb yerine bahsi geçen kanallara giden bir yol yapıldı. -->
+                <strong>Youtube kanalıma göz atmak için tıklayabilirsiniz:</strong>
+                <a href="http://https://www.youtube.com/@noldber1919" target="_blank">
+                    <img src="/img/youtubelogo.png" alt="Youtube Logosu" title="NoldBR youtube kanalına" width="50" height="30">
+                </a>
+                <hr>
+                <strong>Twitch kanalıma göz atmak için tıklayabilirsiniz:</strong>
+                <a href="http://https://www.twitch.tv/noldber" target="_blank">
+                    <img src="/img/twitchlogo.png" alt="Twitch Logosu" title="NoldBR twitch kanalına" width="50" height="50">
+                </a>
+            </p>
+    </div>
+    <div>
+        <a href="#Sayfabasi">
+            <button>Sayfa Başına Git</button> 
+        </a>
+        <!-- Sayfanın sonuna id vererek en alta bu id ye git butonu örneği -->
+        <p id="Sayfasonu"></p>
+    </div>
+</body>
+</html>
